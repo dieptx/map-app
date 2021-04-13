@@ -1,0 +1,22 @@
+.leaflet-container {
+  height: 400px;
+  width: 90%;
+}
+
+.LVL1 {
+  background-color: #bedbab;
+}
+
+.LVL2 {
+  background-color: #f8ec9e;
+}
+
+.LVL3 {
+  background-color: #a096e0;
+}
+.LVL4 {
+  background-color: #f7b9b7;
+}
+.LVL5 {
+  background-color: red;
+}
