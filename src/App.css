@@ -39,18 +39,3 @@
     transform: rotate(360deg);
   }
 }
-
-.url-form {
-  margin-top: 20px;
-}
-.url-input {
-  height: 30px;
-}
-
-.margin-left-10 {
-  margin-left: 10px;
-}
-
-.submit-btn {
-  height: 35px;
-}

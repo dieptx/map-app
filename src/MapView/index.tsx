@@ -1,5 +1,5 @@
 import React from "react";
-import "./MapView.css";
+import "../MapView/styles.css";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker as LMarker, Popup } from "react-leaflet";
 import { icon, LatLngExpression } from "leaflet";
@@ -24,7 +24,7 @@ function MapView(props: Props) {
           title={marker.name}
           icon={icon({
             iconUrl: marker.icon.length === 0 ? defaultIconUrl : marker.icon,
-            iconSize: [20, 20],
+            iconSize: [25, 25],
             className: marker.status,
           })}
         >

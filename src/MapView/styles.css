@@ -3,20 +3,20 @@
   width: 90%;
 }
 
-.LVL1 {
+.LVL_1 {
   background-color: #bedbab;
 }
 
-.LVL2 {
+.LVL_2 {
   background-color: #f8ec9e;
 }
 
-.LVL3 {
+.LVL_3 {
   background-color: #a096e0;
 }
-.LVL4 {
+.LVL_4 {
   background-color: #f7b9b7;
 }
-.LVL5 {
+.LVL_5 {
   background-color: red;
 }
