@@ -21,10 +21,10 @@ function FormUrlView(props: Props) {
     [onLoadMapUrl, url]
   );
 
-  const handleChangeUrl = (event: any) => {
+  const handleChangeUrl = React.useCallback((event: any) => {
     const { value } = event.target;
     setUrl(value);
-  };
+  }, []);
 
   const handleReset = React.useCallback(() => {
     if (!onReset) {

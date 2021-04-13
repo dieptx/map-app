@@ -25,7 +25,7 @@ function App() {
     fetchMarkers(url);
   }, [url]);
 
-  const fetchMarkers = (url?: string) => {
+  const fetchMarkers = React.useCallback((url?: string) => {
     fetchMarkersByUrl(url)
       .then((response) => {
         const markers: Marker[] = Object.values(response).map((m: any) => ({
@@ -39,15 +39,15 @@ function App() {
         clearInterval(timer);
         setError("Oops, somethings went wrong try to get map with URL");
       });
-  };
+  }, []);
 
-  const handleLoadMapUrl = (url: string) => {
+  const handleLoadMapUrl = React.useCallback((url: string) => {
     setUrl(url);
-  };
+  }, []);
 
-  const handleResetUrl = () => {
+  const handleResetUrl = React.useCallback(() => {
     setUrl(undefined);
-  };
+  }, []);
 
   return (
     <div className="App">
