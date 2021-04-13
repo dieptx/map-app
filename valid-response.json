@@ -1,0 +1,22 @@
+{
+   "marker_id1":{
+      "pos":{
+         "lat":47.495632,
+         "long":19.061795
+      },
+      "name":"marker id 1",
+      "icon":"https://www.iconninja.com/files/352/789/313/gear-icon.png",
+      "status":"LVL_1",
+      "details":"some detailed information related to the given marker"
+   },
+   "marker_id2":{
+      "pos":{
+         "lat":47.495732,
+         "long":19.061895
+      },
+      "name":"marker id 2",
+      "icon":"https://www.iconninja.com/files/191/283/595/play-icon.png",
+      "status":"LVL_4",
+      "details":"some detailed information related to the given marker 2"
+   }
+}
